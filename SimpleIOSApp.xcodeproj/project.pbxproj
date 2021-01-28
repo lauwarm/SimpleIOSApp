@@ -13,6 +13,7 @@
 		1F20CBC125C1CA8300CBB793 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F20CBC025C1CA8300CBB793 /* Preview Assets.xcassets */; };
 		1F20CBD525C1CB6B00CBB793 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F20CBD325C1CB6B00CBB793 /* hikeData.json */; };
 		1F20CBD625C1CB6B00CBB793 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F20CBD425C1CB6B00CBB793 /* landmarkData.json */; };
+		1F6DCA7625C31EE200896DF3 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DCA7525C31EE200896DF3 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1F20CBC225C1CA8300CBB793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F20CBD325C1CB6B00CBB793 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		1F20CBD425C1CB6B00CBB793 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		1F6DCA7525C31EE200896DF3 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		1F20CBD125C1CB3400CBB793 /* PageView */ = {
 			isa = PBXGroup;
 			children = (
+				1F6DCA7525C31EE200896DF3 /* PageViewController.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6DCA7625C31EE200896DF3 /* PageViewController.swift in Sources */,
 				1F20CBBC25C1CA8100CBB793 /* ContentView.swift in Sources */,
 				1F20CBBA25C1CA8100CBB793 /* SimpleIOSAppApp.swift in Sources */,
 			);
